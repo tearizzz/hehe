@@ -1,0 +1,93 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+}
+
+/* Body Styling */
+body {
+    background-color: #ffe6f2; /* Soft pink background */
+    color: #4a2c3d; /* Dark plum for text */
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #ff66a3; /* Vibrant pink for header */
+    color: #ffffff; /* White text */
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    background: #ffffff; /* White background for sections */
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff4081; /* Bright pink for section headings */
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ff4081;
+    padding-bottom: 5px;
+}
+
+/* Images and Videos Styling */
+section img, section video {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #ff66a3; /* Vibrant pink for footer */
+    color: #ffffff; /* White text */
+    padding: 1em;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Back to Top Button Styling */
+button {
+    background-color: #ff4081; /* Bright pink */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d6336c; /* Darker pink on hover */
+}
